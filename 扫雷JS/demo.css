@@ -1,0 +1,109 @@
+*{
+margin: 0%;
+padding: 0%;
+}
+.wrapper{
+    width: 100%;
+    height:1000px;
+    position:fixed;
+     top:0px;
+     left: 0px;
+     background-color: aquamarine;
+     border:1px solid red;
+}
+.btn{
+height:143px;
+width:170px;
+position:absolute;
+left:50px;
+border:1px solid red;
+cursor: pointer;
+line-height: 143px;
+text-align: center;
+background-color: blueviolet;
+}
+.box{
+    height: 500px;
+    width:500px;
+    background-color:darksalmon;
+    transform: perspective(800px) rotateX(45deg);
+    margin: 20px auto;
+    border:1px solid yellow;
+    box-shadow:5px 5px 5px rgba(0,0,0,0.3);
+    display: none;
+}
+.flagBox{
+    position:absolute;
+    top:50px;
+    left:35%;
+    font-weight: bold;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    display: none;
+}
+.alertBox{
+    display: none;
+    position:absolute;
+    width: 100%;
+    height:100%;
+    left:0;
+    top:0;
+    background-color: rgba(0,0,0,0.3);
+    border: 1px solid blue;
+     
+}
+.alertImg{
+       width:300px;
+       height:200px;
+       border: 1px solid black;
+       top:200px;
+       left:40%;
+       bottom: 0;
+       position: absolute;
+       border-radius: 20px;
+}
+.close{
+    height: 40px;
+    width:40px;
+    position: absolute;
+    right:0px;
+    font-size: 16px;
+    cursor: pointer;
+    color:purple;
+    padding: 2px;
+    
+}
+.alertBox span{
+  font-size:40px;
+  position: absolute;
+  top:40%;
+  left:8%;
+}
+.block{
+    width:48px;
+    height:48px;
+    border-right: 1px solid yellow;
+    border-bottom: 1px solid yellow;
+    box-shadow: 0 0 4px #333 inset;
+   float: left;
+}
+.show{
+    background-color: red;
+    font-size: 16px;
+}
+.num{
+    background-color:palevioletred;
+    font-size:18px;
+    font-weight: bold;
+    line-height: 46px;
+    text-align: center;
+     
+}
+.flag{
+    background-color: darkorange;
+    font-size:18px;
+    font-weight: bold;
+    line-height: 46px;
+    text-align: center;
+}

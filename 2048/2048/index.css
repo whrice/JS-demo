@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "YouYuan";
+  
+}
+
+body {
+    background: #d7d3b6;
+   
+}
+.box{
+   /* border:1px solid blue;*/
+    width:500px;
+    height:600px;
+    margin:auto;
+}
+.title{
+  font-size:28px;
+  font-weight: bold;
+
+}
+.maxScore{
+    font-size:20px;
+}
+.maxScore span{
+  color: red;
+  font-weight: bold;
+
+}
+.top{
+    
+    margin:auto;
+    text-align: center;
+
+}
+.gameBody{
+    width:420px;
+    height:400px;
+    border:1px solid green;
+    margin:auto;
+    margin-top:15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #999;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.gameBody .row{
+    display:flex;
+    justify-content: space-between;
+    
+    height:80px;
+}
+.gameBody .row .item{
+   border: 1px solid black;
+   width:75px;
+   height:75px;
+   text-align: center;
+   line-height: 70px;
+   font-size: 30px;
+   font-weight: bold;
+   font-family: "microsoft yahei";
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.bottom{
+   
+    text-align: center;
+    margin-top:15px;
+    font-size:15px;
+}
+
+.result{
+   
+    padding-right:110px;
+    padding-top: 5px;
+}
+.result span{
+    color:red;
+    font-weight: bold;
+}
+.bottom button{
+    
+    width:220px;
+    margin-top: 5px;
+    font-weight: bold;
+    color:rgb(89, 42, 165);
+    font-size:16px;
+    letter-spacing:10px;
+}
+.bottom button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    font-weight: bold;
+    color:rgb(89, 42, 165);
+    font-size:18px;
+}
+.bottom button:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    color:rgb(89, 42, 165);
+    font-size:16px;
+  }
+  .bottom button:focus {
+   
+    color:rgb(89, 42, 165);
+    font-size:16px;
+  }
